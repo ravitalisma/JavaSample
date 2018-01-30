@@ -4,7 +4,12 @@ public class Hello {
 	
 	public String displayHelloMessage(String message){
 		String msg;
-		if(!Strings.isNullOrEmpty(String messages)) {
+		String test;
+		if(!Strings.isNullOrEmpty(String message)) {
+			msg = messages;
+		}
+		else { msg = "hi"; }
+		if(!Strings.isNullOrEmpty(String message)) {
 			msg = messages;
 		}
 		else { msg = "hi"; }
