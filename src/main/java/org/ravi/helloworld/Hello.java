@@ -3,13 +3,11 @@ package org.ravi.helloworld;
 public class Hello {
 	
 	public String displayHelloMessage(String message){
-		/*String msg;
-		String test;
+		String msg;
 		if(message != null && !message.isEmpty()) {
 			msg = message;
 		}
-		else { msg = "hi"; }*/
-		return message;
+		else { msg = "hi"; }
 		return msg;
 	}
 
