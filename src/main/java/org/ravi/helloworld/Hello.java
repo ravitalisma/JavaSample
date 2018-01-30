@@ -6,11 +6,11 @@ public class Hello {
 		String msg;
 		String test;
 		if(message != null && !message.isEmpty()) {
-			msg = messages;
+			msg = message;
 		}
 		else { msg = "hi"; }
 		if(message != null && !message.isEmpty()) {
-			msg = messages;
+			msg = message;
 		}
 		else { msg = "hi"; }
 		return msg;
