@@ -1,5 +1,5 @@
 package org.ravi.helloworld;
-package com.google.common.base.Strings;
+
 public class Hello {
 	
 	public String displayHelloMessage(String message){
