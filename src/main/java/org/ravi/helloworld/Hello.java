@@ -5,11 +5,11 @@ public class Hello {
 	public String displayHelloMessage(String message){
 		String msg;
 		String test;
-		if(!Strings.isNullOrEmpty(String message)) {
+		if(message != null && !message.isEmpty()) {
 			msg = messages;
 		}
 		else { msg = "hi"; }
-		if(!Strings.isNullOrEmpty(String message)) {
+		if(message != null && !message.isEmpty()) {
 			msg = messages;
 		}
 		else { msg = "hi"; }
